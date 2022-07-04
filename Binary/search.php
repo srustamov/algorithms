@@ -1,12 +1,13 @@
 <?php
 
+namespace Binary;
 
 /**
  * @param int [] $array
  * @param int $number
  * @return false|int
  */
-function binarySearch(array $array, int $number): false|int
+function search(array $array, int $number): false|int
 {
     $start = 0;
 
@@ -30,7 +31,7 @@ function binarySearch(array $array, int $number): false|int
     return false;
 }
 
-var_dump(binarySearch([1,2,3,4,5],4));
+
 
 
 
